@@ -5,8 +5,8 @@ import pytesseract
 from PIL import Image
 import boto3
 from boto3.dynamodb.conditions import Key
-AWS_ACCESS_KEY = "AKIAYDOKMDLN2YKRH7NO"
-AWS_SECRET_ACCESS = '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'
+AWS_ACCESS_KEY = " "
+AWS_SECRET_ACCESS = ' '
 
 TABLE_NAME = 'cars'
 
@@ -191,13 +191,4 @@ def capt1():
 offenders=[]
 capt()
 capt1()
-# d=y-x
-# d0=d.total_seconds()
-# d1=0.15/(d0/3600)
-# print("time diff is")
-# print(d.total_seconds())
-# print("speed in kmph=")
-# print(d1)
-
-
 
